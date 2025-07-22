@@ -1,4 +1,4 @@
-# EPRNet_test
-EPRNet is a part of AEPR project.
+# AEPR
+Automated Electron Paramagnetic Resonance.
 
 # Some thing here
