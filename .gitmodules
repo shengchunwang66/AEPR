@@ -1,0 +1,3 @@
+[submodule "EPRChat"]
+	path = EPRChat
+	url = https://github.com/fliaght/EPRChat
