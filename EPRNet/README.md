@@ -2,6 +2,7 @@
 
 ## Data preparation
 ```
+cd generate
 python generate_mixture.py  # Generate a value for mixture
 python generate_single.py  # Generate a value for spin-trapping
 ```
@@ -15,6 +16,7 @@ After generating the parameter combinations, we use `generate_training_set_via_e
 During the train of EPRNet, we first combine all the simulated file together with different g value.
 
 ```
+cd train
 pyton read.py
 ```
 
@@ -43,6 +45,7 @@ python train.py
 This code is for evaluating the results of EPRNet.
 
 ```
+cd evaluate
 python evaluation.py
 ```
 
