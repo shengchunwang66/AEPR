@@ -3,8 +3,8 @@
 ## Data preparation
 ```
 cd generate
-python generate_mixture.py  # Generate a value for mixture
-python generate_single.py  # Generate a value for spin-trapping
+python generate_mixture.py  # Generate a value for spin-trapping mixture
+python generate_single.py  # Generate a value for spin-trapping single species
 ```
 
 After generating the parameter combinations, we use `generate_training_set_via_easyspin.m` to generate the simulated file.
